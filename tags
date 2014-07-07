@@ -1,0 +1,89 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AR	Makefile	/^AR            = \/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/bin\/ar cq$/;"	m
+CC	Makefile	/^CC            = \/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/bin\/clang$/;"	m
+CFLAGS	Makefile	/^CFLAGS        = -pipe -O2 -isysroot \/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX10.8.sdk -mmacosx-version-min=10.6 -Wall -W -fPIE $(DEFINES)$/;"	m
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COPY	Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	Makefile	/^COPY_DIR      = cp -f -R$/;"	m
+COPY_FILE	Makefile	/^COPY_FILE     = cp -f$/;"	m
+CXX	Makefile	/^CXX           = \/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/bin\/clang++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS      = -pipe -O2 -isysroot \/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX10.8.sdk -mmacosx-version-min=10.6 -Wall -W -fPIE $(DEFINES)$/;"	m
+DEFINES	Makefile	/^DEFINES       = -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB$/;"	m
+DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESTDIR	Makefile	/^DESTDIR       = #avoid trailing-slash linebreak$/;"	m
+DIST	Makefile	/^DIST          = ..\/..\/Qt\/5.2.1\/clang_64\/mkspecs\/features\/spec_pre.prf \\$/;"	m
+INCPATH	Makefile	/^INCPATH       = -I..\/..\/Qt\/5.2.1\/clang_64\/mkspecs\/macx-clang -I. -I. -I..\/..\/Qt\/5.2.1\/clang_64\/lib\/QtWidgets.framework\/Versions\/5\/Headers -I..\/..\/Qt\/5.2.1\/clang_64\/lib\/QtGui.framework\/Versions\/5\/Headers -I..\/..\/Qt\/5.2.1\/clang_64\/lib\/QtCore.framework\/Versions\/5\/Headers -I. -I\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX10.8.sdk\/System\/Library\/Frameworks\/OpenGL.framework\/Versions\/A\/Headers -I\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX10.8.sdk\/System\/Library\/Frameworks\/AGL.framework\/Headers -F\/Users\/wachs\/Qt\/5.2.1\/clang_64\/lib$/;"	m
+INSTALL_DIR	Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_FILE	Makefile	/^INSTALL_FILE  = $(COPY_FILE)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = $(COPY_FILE)$/;"	m
+JanelaPrincipal	mainWindow.cpp	/^JanelaPrincipal::JanelaPrincipal (QWidget* parent):QMainWindow(parent)$/;"	f	class:JanelaPrincipal	signature:(QWidget* parent)
+JanelaPrincipal	mainWindow.h	/^		JanelaPrincipal (QWidget* parent=NULL);                             \/* constructor      *\/$/;"	p	class:JanelaPrincipal	access:public	signature:(QWidget* parent=NULL)
+JanelaPrincipal	mainWindow.h	/^class JanelaPrincipal:public QMainWindow$/;"	c	inherits:QMainWindow
+JanelaPrincipal::JanelaPrincipal	mainWindow.cpp	/^JanelaPrincipal::JanelaPrincipal (QWidget* parent):QMainWindow(parent)$/;"	f	class:JanelaPrincipal	signature:(QWidget* parent)
+JanelaPrincipal::JanelaPrincipal	mainWindow.h	/^		JanelaPrincipal (QWidget* parent=NULL);                             \/* constructor      *\/$/;"	p	class:JanelaPrincipal	access:public	signature:(QWidget* parent=NULL)
+JanelaPrincipal::metaObject	moc_mainWindow.cpp	/^const QMetaObject *JanelaPrincipal::metaObject() const$/;"	f	class:JanelaPrincipal	signature:() const
+JanelaPrincipal::qt_metacall	moc_mainWindow.cpp	/^int JanelaPrincipal::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:JanelaPrincipal	signature:(QMetaObject::Call _c, int _id, void **_a)
+JanelaPrincipal::qt_metacast	moc_mainWindow.cpp	/^void *JanelaPrincipal::qt_metacast(const char *_clname)$/;"	f	class:JanelaPrincipal	signature:(const char *_clname)
+JanelaPrincipal::qt_static_metacall	moc_mainWindow.cpp	/^void JanelaPrincipal::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:JanelaPrincipal	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+JanelaPrincipal::staticMetaObject	moc_mainWindow.cpp	/^const QMetaObject JanelaPrincipal::staticMetaObject = {$/;"	m	class:JanelaPrincipal	file:
+LFLAGS	Makefile	/^LFLAGS        = -headerpad_max_install_names -Wl,-syslibroot,\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX10.8.sdk -mmacosx-version-min=10.6$/;"	m
+LIBS	Makefile	/^LIBS          = $(SUBLIBS) -F\/Users\/wachs\/Qt\/5.2.1\/clang_64\/lib -framework QtWidgets -framework QtGui -framework QtCore -framework OpenGL -framework AGL $/;"	m
+LINK	Makefile	/^LINK          = \/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/bin\/clang++$/;"	m
+MAKEFILE	Makefile	/^MAKEFILE      = Makefile$/;"	m
+MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOVE	Makefile	/^MOVE          = mv -f$/;"	m
+OBJECTS	Makefile	/^OBJECTS       = main.o \\$/;"	m
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+P	main.cpp	/^	JanelaPrincipal *P=new JanelaPrincipal(NULL);$/;"	l
+QMAKE	Makefile	/^QMAKE         = \/Users\/wachs\/Qt\/5.2.1\/clang_64\/bin\/qmake$/;"	m
+QMAKE_COMP_QMAKE_OBJECTIVE_CFLAGS	Makefile	/^QMAKE_COMP_QMAKE_OBJECTIVE_CFLAGS = -pipe \\$/;"	m
+QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = qtComVim$/;"	m
+QT_MOC_LITERAL	moc_mainWindow.cpp	/^#define QT_MOC_LITERAL(/;"	d	file:
+QT_MOC_LITERAL	moc_mainWindow.cpp	/^#undef QT_MOC_LITERAL$/;"	d	file:
+RANLIB	Makefile	/^RANLIB        = \/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/bin\/ranlib -s$/;"	m
+SED	Makefile	/^SED           = sed$/;"	m
+SOURCES	Makefile	/^SOURCES       = main.cpp \\$/;"	m
+STRIP	Makefile	/^STRIP         = $/;"	m
+SYMLINK	Makefile	/^SYMLINK       = ln -f -s$/;"	m
+SortViewWidget	SortViewWidget.cpp	/^SortViewWidget::SortViewWidget ()$/;"	f	class:SortViewWidget	signature:()
+SortViewWidget	SortViewWidget.h	/^		SortViewWidget ();                             \/* constructor *\/$/;"	p	class:SortViewWidget	access:public	signature:()
+SortViewWidget	SortViewWidget.h	/^class SortViewWidget : public QWidget$/;"	c	inherits:QWidget
+SortViewWidget::SortViewWidget	SortViewWidget.cpp	/^SortViewWidget::SortViewWidget ()$/;"	f	class:SortViewWidget	signature:()
+SortViewWidget::SortViewWidget	SortViewWidget.h	/^		SortViewWidget ();                             \/* constructor *\/$/;"	p	class:SortViewWidget	access:public	signature:()
+SortViewWidget::canvas	SortViewWidget.h	/^		QWidget *canvas;$/;"	m	class:SortViewWidget	access:private
+SortViewWidget::paintEvent	SortViewWidget.cpp	/^void SortViewWidget::paintEvent(QPaintEvent* event){$/;"	f	class:SortViewWidget	signature:(QPaintEvent* event)
+SortViewWidget::paintEvent	SortViewWidget.h	/^	 	void paintEvent(QPaintEvent* event);$/;"	p	class:SortViewWidget	access:private	signature:(QPaintEvent* event)
+TAR	Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	Makefile	/^TARGET        = qtComVim.app\/Contents\/MacOS\/qtComVim$/;"	m
+__mainwindow_h	mainWindow.h	/^#define __mainwindow_h$/;"	d
+a	main.cpp	/^	QApplication a(argc,argv);$/;"	p	file:	signature:(argc,argv)
+addWidget	mainWindow.cpp	/^	vbox->addWidget(editor);$/;"	p	file:	signature:(editor)
+addWidget	mainWindow.cpp	/^	vbox->addWidget(l);$/;"	p	file:	signature:(l)
+canvas	SortViewWidget.h	/^		QWidget *canvas;$/;"	m	class:SortViewWidget	access:private
+data	moc_mainWindow.cpp	/^    QByteArrayData data[1];$/;"	m	struct:qt_meta_stringdata_JanelaPrincipal_t	file:	access:public
+editor	mainWindow.cpp	/^	QTextEdit *editor = new QTextEdit();$/;"	l
+l	mainWindow.cpp	/^	QLabel* l =new QLabel("teste");$/;"	l
+main	main.cpp	/^main ( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+metaObject	moc_mainWindow.cpp	/^const QMetaObject *JanelaPrincipal::metaObject() const$/;"	f	class:JanelaPrincipal	signature:() const
+paintEvent	SortViewWidget.cpp	/^void SortViewWidget::paintEvent(QPaintEvent* event){$/;"	f	class:SortViewWidget	signature:(QPaintEvent* event)
+paintEvent	SortViewWidget.h	/^	 	void paintEvent(QPaintEvent* event);$/;"	p	class:SortViewWidget	access:private	signature:(QPaintEvent* event)
+qt_meta_data_JanelaPrincipal	moc_mainWindow.cpp	/^static const uint qt_meta_data_JanelaPrincipal[] = {$/;"	v	file:
+qt_meta_stringdata_JanelaPrincipal	moc_mainWindow.cpp	/^static const qt_meta_stringdata_JanelaPrincipal_t qt_meta_stringdata_JanelaPrincipal = {$/;"	v	file:
+qt_meta_stringdata_JanelaPrincipal_t	moc_mainWindow.cpp	/^struct qt_meta_stringdata_JanelaPrincipal_t {$/;"	s	file:
+qt_meta_stringdata_JanelaPrincipal_t::data	moc_mainWindow.cpp	/^    QByteArrayData data[1];$/;"	m	struct:qt_meta_stringdata_JanelaPrincipal_t	file:	access:public
+qt_meta_stringdata_JanelaPrincipal_t::stringdata	moc_mainWindow.cpp	/^    char stringdata[17];$/;"	m	struct:qt_meta_stringdata_JanelaPrincipal_t	file:	access:public
+qt_metacall	moc_mainWindow.cpp	/^int JanelaPrincipal::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:JanelaPrincipal	signature:(QMetaObject::Call _c, int _id, void **_a)
+qt_metacast	moc_mainWindow.cpp	/^void *JanelaPrincipal::qt_metacast(const char *_clname)$/;"	f	class:JanelaPrincipal	signature:(const char *_clname)
+qt_static_metacall	moc_mainWindow.cpp	/^void JanelaPrincipal::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:JanelaPrincipal	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+setLayout	mainWindow.cpp	/^	w->setLayout(vbox);$/;"	p	file:	signature:(vbox)
+staticMetaObject	moc_mainWindow.cpp	/^const QMetaObject JanelaPrincipal::staticMetaObject = {$/;"	m	class:JanelaPrincipal	file:
+stringdata	moc_mainWindow.cpp	/^    char stringdata[17];$/;"	m	struct:qt_meta_stringdata_JanelaPrincipal_t	file:	access:public
+vbox	mainWindow.cpp	/^	QVBoxLayout *vbox = new QVBoxLayout();$/;"	l
+w	mainWindow.cpp	/^	QWidget *w = new QWidget();$/;"	l
