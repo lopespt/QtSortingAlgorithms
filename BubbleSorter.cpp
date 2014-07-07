@@ -2,7 +2,7 @@
 
 BubbleSorter::BubbleSorter():VectorSorter()
 {
-	//Constructor...test
+	//Constructor...test1
 }
 
 
