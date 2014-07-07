@@ -10,7 +10,7 @@ void BubbleSorter::startSortingThread(){
 
     int n = vector->size();
     int temp;
-    bool trocou;
+    bool trocou;//
     do {
         trocou=false;
         for(int i=1;i<n;i++){
