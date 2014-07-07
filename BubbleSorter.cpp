@@ -2,6 +2,7 @@
 
 BubbleSorter::BubbleSorter():VectorSorter()
 {
+	//Constructor
 }
 
 
