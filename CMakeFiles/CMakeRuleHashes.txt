@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+5dcc7b16140427cceafdcc33ed7e338a CMakeFiles/QtSortingAlgorithms_automoc
