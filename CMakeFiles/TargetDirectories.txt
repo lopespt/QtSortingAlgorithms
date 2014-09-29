@@ -1,2 +1,0 @@
-/tmp/QtSortingAlgorithms/CMakeFiles/QtSortingAlgorithms.dir
-/tmp/QtSortingAlgorithms/CMakeFiles/QtSortingAlgorithms_automoc.dir
