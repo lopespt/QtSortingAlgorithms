@@ -1,3 +1,4 @@
+.settings
 .ycm*
 release
 build
@@ -11,3 +12,4 @@ CMakeScripts
 *.xcodeproj
 Debug/
 *.build/
+moc_*
