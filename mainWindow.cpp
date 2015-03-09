@@ -131,12 +131,13 @@ void JanelaPrincipal::stopSorting(){
     updateTimer.stop();
     for(int i=0;i<N_SORTERS;i++){
         timers[i]->stopTimer();
-        if(sorters[i])
+        if(sorters[i]){
             sorters[i]->requestInterruption();
             //sorters[i]->terminate();
             sorters[i]->wait();
             //sorters[i]->exit(0);
         }
+    }
 }
 
 JanelaPrincipal::~JanelaPrincipal(){
@@ -180,4 +181,13 @@ void JanelaPrincipal::setN(int n){
     stopSorting();
     this->n = n;
     setupVectors();
+}
+
+void JanelaPrincipal::finishedSorting(){
+     for(int i=0;i<N_SORTERS;i++){
+        if(sorters[i])
+            //timers[i]->timer
+            sorters[i]->sort(vectors[i]);
+    }
+   
 }

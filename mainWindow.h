@@ -79,7 +79,7 @@ class JanelaPrincipal:public QMainWindow
         void stopSorting();
         void setupVectors();
         void setN(int);
-
+        void finishedSorting();
 };
 
 #endif
