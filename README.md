@@ -1,7 +1,7 @@
 QtSortingAlgorithms
 ===================
 
-This projects ilustrates some sorting algortihms and the absolute running
+This projects ilustrates some sorting algortihms and their absolute running
 time.
 
 Dependencies
