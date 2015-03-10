@@ -18,6 +18,7 @@ Installing
         git clone https://github.com/lopespt/QtSortingAlgorithms
         cd QtSortingAlgorithms
         mkdir build
+        cd build
         cmake ..
         make
         ./QtSortingAlgortihms
