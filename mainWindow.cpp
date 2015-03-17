@@ -73,6 +73,7 @@ JanelaPrincipal::JanelaPrincipal (QWidget* parent):QMainWindow(parent)
     sorters[1] = new InsertionSorter();
     sorters[2] = new MergeSorter();
     sorters[3] = new QuickSorter();
+    sorters[4] = new RadixSorter();
     for(int i=0;i<N_SORTERS;i++){
         QVBoxLayout *vboxInt = new QVBoxLayout();
         sortViews[i] = new SortViewWidget();
@@ -100,6 +101,7 @@ JanelaPrincipal::JanelaPrincipal (QWidget* parent):QMainWindow(parent)
     sortViews[1]->setUpperText("Insertion Sort");
     sortViews[2]->setUpperText("Merge Sort");
     sortViews[3]->setUpperText("Quick Sort");
+    sortViews[4]->setUpperText("Radix Sort");
 
     vbox->addLayout(hbox);
     updateTimer.start();

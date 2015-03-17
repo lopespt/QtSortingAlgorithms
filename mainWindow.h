@@ -41,12 +41,13 @@
 #include <QApplication>
 #include <InsertionSorter.h>
 #include <QuickSorter.h>
+#include <RadixSorter.h>
 #include <TimerWidget.h>
 #include <QPluginLoader>
 #include <QScrollArea>
 #include <QTimer>
 
-#define N_SORTERS 4
+#define N_SORTERS 5
 
 class JanelaPrincipal:public QMainWindow
 {
