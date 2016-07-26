@@ -4,7 +4,6 @@ VectorSorter::VectorSorter(QObject *parent) :
     QThread(parent)
 {
     interval = 250;
-
 }
 
 
