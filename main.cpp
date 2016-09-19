@@ -10,27 +10,25 @@
  *       Revision:  none
  *       Compiler:  gcc
  *
- *         Author:  YOUR NAME (), 
- *   Organization:  
+ *         Author:  YOUR NAME (),
+ *   Organization:
  *
  * =====================================================================================
  */
 
-
+#include <qlist.h>
 #include <QApplication>
-#include "mainWindow.h"
 #include <QObject>
 #include <QVector>
+#include "mainWindow.h"
 
+int main(int argc, char *argv[]) {
+    QApplication a(argc, argv);
 
+    JanelaPrincipal *P = new JanelaPrincipal();
 
-int
-main ( int argc, char *argv[] )
-{
-    QApplication a(argc,argv);
-    JanelaPrincipal  *P = new JanelaPrincipal();
-
-    P->setWindowTitle("Sorting Algorithms - CC5661 - FEI - Prof. Guilherme Wachs");
+    P->setWindowTitle(
+        "Sorting Algorithms - CC5661 - FEI - Prof. Guilherme Wachs");
 
     return a.exec();
 }
