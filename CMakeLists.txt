@@ -2,24 +2,24 @@ CMAKE_MINIMUM_REQUIRED(VERSION 2.8.11)
 
 PROJECT(QtSortingAlgorithms)
 
+FIND_PACKAGE(Qt5Core)
 FIND_PACKAGE(Qt5Widgets)
 FIND_PACKAGE(Qt5Opengl)
 
-IF(APPLE)
-    INCLUDE_DIRECTORIES("/Applications/Xcode.app/Contents/Developer/Toolchains//XcodeDefault.xctoolchain/usr/include/c++/v1/")
-ENDIF(APPLE)
+#IF(APPLE)
+ #   INCLUDE_DIRECTORIES("/Applications/Xcode.app/Contents/Developer/Toolchains//XcodeDefault.xctoolchain/usr/include/c++/v1/")
+#ENDIF(APPLE)
 
 INCLUDE_DIRECTORIES("${Qt5Widgets_INCLUDES} ${Qt5Opengl_INCLUDES}")
 SET(CMAKE_INCLUDE_CURRENT_DIR ON)
 SET(CMAKE_AUTOMOC ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${Qt5Widgets_EXECUTABLE_COMPILE_FLAGS}")
-SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -g")
 
 FILE(GLOB sources *.h *.cpp)
 
 ADD_EXECUTABLE(QtSortingAlgorithms WIN32 ${sources})
-TARGET_LINK_LIBRARIES(QtSortingAlgorithms ${Qt5Widgets_LIBRARIES}
-    ${Qt5Opengl_LIBRARIES})
 
+  qt5_use_modules(QtSortingAlgorithms Widgets Opengl Core)
 
