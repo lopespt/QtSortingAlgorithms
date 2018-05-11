@@ -16,7 +16,6 @@
  * =====================================================================================
  */
 
-#include <qlist.h>
 #include <QApplication>
 #include <QObject>
 #include <QVector>
