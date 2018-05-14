@@ -1,7 +1,6 @@
 #ifndef VECTORSORTER_H
 #define VECTORSORTER_H
 
-#include <QObject>
 #include <QVector>
 #include <QThread>
 #include <QDebug>

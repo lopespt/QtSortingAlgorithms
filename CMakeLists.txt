@@ -2,12 +2,13 @@ CMAKE_MINIMUM_REQUIRED(VERSION 2.8.11)
 
 PROJECT(QtSortingAlgorithms)
 
+FIND_PACKAGE(Qt5Core)
 FIND_PACKAGE(Qt5Widgets)
 FIND_PACKAGE(Qt5OpenGL)
 
-IF(APPLE)
-    INCLUDE_DIRECTORIES("/Applications/Xcode.app/Contents/Developer/Toolchains//XcodeDefault.xctoolchain/usr/include/c++/v1/")
-ENDIF(APPLE)
+#IF(APPLE)
+ #   INCLUDE_DIRECTORIES("/Applications/Xcode.app/Contents/Developer/Toolchains//XcodeDefault.xctoolchain/usr/include/c++/v1/")
+#ENDIF(APPLE)
 
 INCLUDE_DIRECTORIES("${Qt5Widgets_INCLUDES} ${Qt5OpenGL_INCLUDES}")
 SET(CMAKE_INCLUDE_CURRENT_DIR ON)
