@@ -16,19 +16,18 @@
  * =====================================================================================
  */
 
-#include <qlist.h>
+#include "mainWindow.h"
 #include <QApplication>
 #include <QObject>
-#include <QVector>
-#include "mainWindow.h"
 
 int main(int argc, char *argv[]) {
-    QApplication a(argc, argv);
+  QApplication a(argc, argv);
 
-    JanelaPrincipal *P = new JanelaPrincipal();
+  JanelaPrincipal *P = new JanelaPrincipal();
+  P->setVisible(true);
 
-    P->setWindowTitle(
-        "Sorting Algorithms - CC5661 - FEI - Prof. Guilherme Wachs");
+  P->setWindowTitle(
+      "Sorting Algorithms - CC5661 - FEI - Prof. Guilherme Wachs");
 
-    return a.exec();
+  return a.exec();
 }
