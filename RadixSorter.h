@@ -7,11 +7,11 @@
 
 class RadixSorter : public VectorSorter
 {
-    Q_OBJECT
 private:
     void countingSort(QVector<int> &v, int digit);
 public:
-    explicit RadixSorter();
+    RadixSorter();
+    ~RadixSorter(){}
 signals:
 
 public slots:

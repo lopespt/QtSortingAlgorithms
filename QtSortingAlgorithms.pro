@@ -28,5 +28,6 @@ SOURCES += BubbleSorter.cpp \
            SortViewWidget.cpp \
            TimerWidget.cpp \
            vectoreditor.cpp \
-           VectorSorter.cpp
+           VectorSorter.cpp \
+           RadixSorter.cpp
 RESOURCES += resources.qrc

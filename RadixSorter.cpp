@@ -1,9 +1,8 @@
 #include "RadixSorter.h"
 #include <math.h>
 
-RadixSorter::RadixSorter():VectorSorter()
+RadixSorter::RadixSorter()
 {
-	//test2
 }
 
 void RadixSorter::countingSort(QVector<int> &v, int digit){

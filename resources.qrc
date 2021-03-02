@@ -1,5 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file alias="logoFei">../../FEI/Graduacao/CC2621 - Algoritmos II/Teoria/Exercícios/Latex/Lista3-Structs/logoFei.jpg</file>
+        <file alias="logoFei">logo_FEI.png</file>
     </qresource>
 </RCC>
